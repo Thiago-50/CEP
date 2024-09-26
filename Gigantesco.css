@@ -1,0 +1,78 @@
+/*CSS da Página de Consulta de Endereço*/
+
+.texto-cabeçalho {
+        text-align: center;
+}
+
+p {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+        background-color: lightgray;
+}
+
+.imagem {
+        border-style: solid;
+        max-width: 650px;
+        max-height: 338px;
+}
+
+img {
+        max-width: 100%;
+        max-height: auto;
+}
+
+#consulta {
+        background-color: white;
+        ;
+        border-style: solid;
+        max-width: 650px;
+        margin-top: 20px;
+        text-align: center;
+}
+
+#cep {
+        background-color: yellow;
+        border-radius: 3px;
+        border-color: black;
+}
+
+.botao {
+        background-color: black;
+        border-style: solid;
+        border-radius: 5px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+#resultado {
+        background-color: lightgreen;
+        padding: 10px;
+        margin-top: 20px;
+        max-width: 630px;
+        border-style: solid;
+        border-radius: 10px;
+        box-shadow: 3px 3px black;
+        text-align: center;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+#centralizado {
+        margin: auto;
+        max-width: max-content; /* max-width: 650px ficou estranho */
+        max-height: max-content;
+}
+
+@media (max-width: 500px) {
+        #centralizado {
+                max-width: 450px;
+                padding: 25px;
+        }
+
+        .botao {
+                margin-top: 10px;
+        }
+}

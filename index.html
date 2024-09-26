@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de CEP</title>
+    <link rel="stylesheet" type="text/css" href="Gigantesco.css">
+    <script src="Colina.js"></script>
+    <!--Texto de Cabeçalho-->
+    <h2 class="texto-cabeçalho">Consulta de Endereço Utilizando API da ViaCEP</h2>
+</head>
+
+<body>
+    <!--Construção do Formulário para consultar o endereço utilizando o CEP-->
+    <form method="get" action=".">
+        <div id="centralizado">
+            <div class="imagem">
+                <img src="Mapa do Brasil.png">
+            </div>
+            <div id="consulta">
+                <p>
+                    Insira seu CEP: <input type="number" id="cep" autofocus>
+                    <input type="button" value="Consultar Endereço" onclick="consultaViaCep()" class="botao">
+                </p>
+            </div>
+            <div class="card" id="resultado">
+                <div class="container">
+                    Resultados da consulta serão mostrados aqui
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
+
+<!--Perguntas a fazer-->
+
+<!--Por que o Type="Submit" não funciona com a tag <Form></Form>, utilizando o método Fetch?-->
+<!--Como funciona exatamente o método Fetch?-->
+<!--O que é uma Promise?-->
+<!--O que exatamente é innerHTML?-->
